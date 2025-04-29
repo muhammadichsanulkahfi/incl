@@ -8,6 +8,16 @@ class Mahasiwa{
     float nilai;
 
     void printData(){
-        cout << "Nim : "
+        cout << "Nim : " << nim << endl;
+        cout << "Nama: " << nama << endl;
+        cout << "Nilai : " << nilai << endl;
     }
+
+};
+int main(){
+    Mahasiwa mhs;
+
+    mhs.nim = 2024;
+    mhs.nama = "abra";
+    
 }
